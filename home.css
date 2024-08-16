@@ -1,0 +1,210 @@
+
+
+body{
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    
+   
+    
+   
+}
+
+
+.main{ box-sizing: border-box;
+    background-image: url(hero.jpg);
+    height: 100vh;
+     color: white;}
+
+.flex-grow{ display: flex;
+    margin-top: 30px;
+    padding: 20px;
+   }
+.website-logo{
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+#space{
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+    margin-top: 25vh;
+    font-size: 30px;
+}
+#space p{
+    margin-top: 1px;
+}
+.pages {
+      margin-left:1000px;
+     
+     
+}
+.pages a{
+    text-decoration: none;
+    margin-left: 1px;
+    color: white;
+    padding:20px 5px;
+    overflow: scroll;
+}
+.center{display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+}
+button{
+    background-color: hsl(240, 64%, 58%);
+    padding:15px 40px;
+    border: none;
+    border-radius: 2px;
+}
+button:hover{
+    background-color: aqua;
+    color: antiquewhite;
+}
+#home-page{ 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;}
+    .line{ display: flex;
+        width: 100px ;
+        border: 2px solid blue;
+        justify-content: center;
+        margin-left: 50%;
+        margin-top: 1px;
+        margin-bottom: 20px;
+
+    }
+
+
+
+ 
+ 
+    #column {
+        display: flex;
+        justify-content: center;
+        padding: 5px 4px;
+        width: 100%;
+     
+      }
+      
+     
+     #small { 
+        flex-basis: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+        height: 300px;
+      }
+     #large {
+        
+        flex-basis: 75%;
+        max-width: 65%;
+        padding: 0 4px;
+        height: 300px;
+      }
+      
+      
+  
+ 
+
+    
+
+        
+    
+    .centerd{
+        text-align: center;
+        align-items: center;
+        padding: 50px 0;
+      }
+     .back-ground{
+        background-color: rgb(243, 243, 248);
+     }
+
+
+
+    #direction
+    {
+        display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+    padding: 10px;
+    }
+    
+    input{ background-color: white;
+        padding: 10px;
+        width: 50%;
+       
+    }
+    .input{  margin-left:30%; }
+    #footer{
+        background-color: black;
+        padding-bottom: 90px;
+    }
+    footer
+    { padding: 25px 50px; 
+        margin: 100px 0 0 0;
+        background-color: rgb(74, 74, 74);
+        color: white;
+        text-align:center;
+
+    }
+    @media(max-width:800px){
+        .flex-grow{ display: flex;
+             flex-direction: column;
+           
+        }
+        .website-logo{
+            margin-left: 130px;}
+        .pages
+        { margin-left: 80px;
+            margin-top: 20px;
+           
+        }
+       
+        #space h1 { font-size: 50px;
+          
+        }
+        #space { display: flex;
+          margin-top: 80px;
+         
+
+        }
+        #direction{
+            flex-direction: column;
+            justify-content: center;
+        }
+        .input{display: flex;
+            flex-direction: column;
+           margin-left: 80px;
+          
+        }
+       
+        .input button{
+          margin-top: 20px;
+         margin-left: 40px;
+        }
+        .input input{
+            width: 70%;
+        }
+         #row{
+             flex: 1 1 auto; 
+        }
+        #column1{
+            width:95;
+        }
+        #column2{
+         width: 95;
+        }
+        #small{
+            max-width: auto;
+        } 
+        
+
+
+        
+    }
